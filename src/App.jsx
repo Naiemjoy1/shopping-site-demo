@@ -4,12 +4,17 @@ function App() {
 
   return (
     <>
-            
-      <h1 className="text-3xl font-bold text-red-600">
-      Hello world!
-    </h1>
+      <h1>Memorable Water Bottle</h1>
+      <div className="flex justify-around">
+        <div className=' w-3/4 bg-green-600'>
+          <h2 className=' text-4xl text-white'>This is card</h2>
+        </div>
+        <div className=" w-1/4 shadow-lg bg-red-600">
+          <h2 className='text-4xl text-white'>This is cart</h2>
+        </div>
+      </div>
 
-    <button className="btn btn-accent">Accent</button>
+
     </>
   )
 }
